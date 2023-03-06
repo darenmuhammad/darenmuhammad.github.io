@@ -1,0 +1,447 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ----------Start Styling---------- */
+
+.containerhero{
+    width: 100%;
+    margin: 70px 0px 0px 0px;
+    position: relative;
+}
+
+.container1{
+    width: 100%;
+}
+
+.header{
+    box-sizing: border-box;
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    padding: 5px;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.logo{
+    box-sizing: border-box;
+    width: 40%;
+    height: 60px;
+    /* background-color: khaki; */
+    float: left;
+}
+
+.logo h1{
+    font-size: 50px;
+    text-align: left;
+    font-weight: bolder;
+    color: whitesmoke;
+}
+
+.navigation{
+    box-sizing: border-box;
+    width: 60%;
+    height: 100%;
+    /* background-color: aliceblue; */
+    float: left;
+    padding: 20px 20px 20px 400px;
+}
+
+.navigation ul li{
+    display: inline-block;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: gray;
+}
+
+.navigation a{
+    color: gray;
+    font-weight: bold;
+}
+
+.navigation a:hover{
+    color: whitesmoke;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.hero{
+    width: 100%;
+    height: 650px;
+    background-size: cover;
+    background-image: url("images/camera.jpg");
+}
+
+.container2{
+    position: relative;
+    width: 100%;
+    background-color: rgb(40, 40, 40);
+}
+
+.container21{
+    position: relative;
+    box-sizing: border-box;
+    width: 70%;
+    padding: 20px;
+    margin: auto;
+    /* background-color: rgb(184, 184, 184); */
+}
+
+a{
+    text-decoration: none;
+}
+
+.container21 h1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+.kotak2{
+    box-sizing: border-box;
+    width: 30%;
+    height: 300px;
+    display: inline-block;
+    margin: 13px;
+    background-color: black;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.kotak2 h2{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 5px;
+    color: gray;
+}
+
+.kotak2 h2:hover{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 5px;
+    color: whitesmoke;
+}
+
+img{
+    width: 100%;
+    height: 85%;
+    background-size: cover;
+}
+
+.container3{
+    width: 100%;
+    background-color: rgb(55, 55, 55);
+}
+
+.container31{
+    position: relative;
+    box-sizing: border-box;
+    width: 70%;
+    padding: 20px;
+    margin: auto;
+    /* background-color: rgb(203, 178, 178); */
+}
+
+.container31 h1{
+    text-align: left;
+    font-weight: bolder;
+    font-size: 40px;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+.kotak31{
+    box-sizing: border-box;
+    width:63%;
+    height: 600px;
+    display: inline-block;
+    margin: 13px;
+    /* background-color: blanchedalmond; */
+}
+
+.kotak32{
+    box-sizing: border-box;
+    width: 30%;
+    height: 600px;
+    display: inline-block;
+    float: right;
+    margin: 13px;
+}
+
+.kotak321{
+    box-sizing: border-box;
+    width: 100%;
+    height: 275px;
+    display: block;
+    /* background-color: blanchedalmond; */
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+
+.kotak321 img{
+    width: 100%;
+    height: 68%;
+    background-size: cover;
+}
+
+.kotak322{
+    box-sizing: border-box;
+    width: 100%;
+    height: 275px;
+    display: block;
+    /* background-color: blanchedalmond; */
+    margin-top: 48px;
+    overflow: hidden;
+}
+
+.kotak322 img{
+    width: 100%;
+    height: 68%;
+    background-size: cover;
+}
+
+span{
+    background-color: rgb(95, 100, 0);
+    color: whitesmoke;
+    margin-left: 6px;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+span:hover{
+    background-color: rgb(80, 86, 0);
+    color: whitesmoke;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.container31 p{
+    font-size: 15px;
+    line-height: 40px;
+    color: gray;
+}
+
+.container31 p:hover{
+    font-size: 15px;
+    line-height: 40px;
+    color: lightgrey;
+}
+
+.container31 h2{
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.container31 a h2:hover{
+    color: rgb(95, 100, 0);
+}
+
+.container4{
+    width: 100%;
+    background-color: rgb(40, 40, 40);
+}
+
+.container41{
+    position: relative;
+    box-sizing: border-box;
+    width: 70%;
+    padding: 20px;
+    margin: auto;
+    /* background-color: rgb(144, 84, 84); */
+}
+
+.kotak41{
+    box-sizing: border-box;
+    width: 20%;
+    height: 300px;
+    display: inline-block;
+    margin: 7px;
+    /* background-color: blanchedalmond; */
+    float: left;
+}
+
+.kotak41 h2{
+    color: whitesmoke;
+    line-height: 40px;
+}
+
+.kotak41 ul li a{
+    color: gray;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.kotak41 ul li a:hover{
+    color: lightgrey;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.kotak42{
+    box-sizing: border-box;
+    width: 30%;
+    height: 300px;
+    display: inline-block;
+    margin: 7px 7px 7px 30px;
+    /* background-color: blanchedalmond; */
+}
+
+.kotak42 p{
+    font-size: 18px;
+    color: grey;
+}
+
+.kotak421, .kotak422{
+    box-sizing: border-box;
+    width: 100%;
+    height: max-content;
+    /* background-color: green; */
+    margin-top: 15px;
+    overflow: hidden;
+}
+
+.kotak421 input{
+    width: 65%;
+    height: 40px;
+    float: left;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.btn{
+    box-sizing: border-box;
+    width: 31%;
+    height: 44px;
+    background-color: rgb(95, 100, 0);
+    border: none;
+    color: whitesmoke;
+    text-align: center;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.btn:hover{
+    width: 31%;
+    height: 44px;
+    background-color: rgb(80, 86, 0);
+    border: none;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.kotak422 img{
+    width: 20%;
+    height: 50px;
+    background-size: cover;
+    float: left;
+    margin-right: 20px;
+    border-radius: 100px;
+}
+
+.footer{
+    box-sizing: border-box;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    padding: 15px;
+}
+
+.kanan{
+    box-sizing: border-box;
+    width: 30%;
+    height: 30px;
+    /* background-color: darkgoldenrod; */
+    float: left;
+    text-align: left;
+    margin-left: 200px;
+    color: rgb(200, 200, 200);
+    padding: 7px;
+}
+
+.kiri{
+    box-sizing: border-box;
+    width: 30%;
+    height: 30px;
+    /* background-color: darkolivegreen; */
+    float: right;
+    padding: 7px;
+    margin-right: 200px;
+}
+
+.kiri ul li{
+    display: inline-block;
+    float: right;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.kiri a{
+    color: gray;
+    font-size: 15px;
+}
+
+.kiri a:hover{
+    color: lightgrey;
+}
+/* -----------End Styling----------- */
+
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table; 
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
